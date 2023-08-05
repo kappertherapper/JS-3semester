@@ -1,0 +1,144 @@
+/* .body {
+    flex: 1;
+    display: flex;
+  } */
+
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.container {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.thing {
+    border-radius: 25px;
+    height: 40px;
+    width: 100px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 20px;
+  }
+
+.main-floor {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    justify-content: center;
+} 
+
+.main-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.mig {
+    width: auto;
+    height: 400px;
+    margin: 64px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 64px;
+}
+
+.second-title {
+    font-size: 36px;
+    text-align: center;
+    margin: 40px;
+    font-weight: bolder;
+}
+
+.second-floor {
+    display: flex;
+    flex-direction: column;
+}
+
+.billeder, .billedTekst {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.billede {
+    border:5px solid blue;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    margin: 36px;
+}
+
+.billedTekst {
+    margin-bottom: 36px;
+}
+
+.third-floor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.quote {
+    width: 700px;
+    font-size: 36px;
+    font-family: light italic;
+    margin: 50px;
+    padding: 100px;
+}
+
+.signatur {
+   margin-left: 500px;
+}
+
+.forth-floor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightskyblue;
+    border-radius: 25px;
+    border: 200px solid white;
+}
+
+.action {
+    font-size: 36px;
+}
+
+.forth-text {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    color: white;
+}
+
+.knap {
+    font-size: large;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+
